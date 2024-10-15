@@ -73,3 +73,44 @@ import os
 # with open("first.txt", "r") as f:
 #     data = f.read()
 #     print(data)
+
+
+
+
+
+
+
+#--------practice--------
+
+# with open("first.txt", "w") as f:
+#     f.write("i'm the stronger one")
+#     f.write("\nmy mind is so strong")
+#     f.write("\n self confidence")
+
+# with open("first.txt","r") as f:
+#     data = f.read()
+#     new_data = data.replace("strong","strongest")
+#     print(new_data)
+
+# with open("first.txt","w") as f:
+#     f.write(new_data)
+
+# with open("second.txt","w") as f:
+#     f.write("1,2 ,3, 4, 5, 6 ,7, 8")
+
+
+
+# with open("second.txt","r") as f:
+#     data = f.read()
+#     size = len(data)
+#     num = ""
+#     for i in range(0, size, 1):
+#         if(data[i] ==','):
+#             if(int(num) % 2 == 0):
+#                 print(num)
+#             num = ""
+#         else:
+#             num += data[i]
+
+#     if(int(num) % 2 == 0):
+#         print(num)

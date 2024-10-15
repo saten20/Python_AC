@@ -6,6 +6,7 @@
 # Negitive indexing is given to the string in python which is start from the - n --> -1 in case of slicing only
 
 
+
 # fname = "satendra"
 # lname = "yadav"
 # middle = "parshuram"
@@ -22,6 +23,7 @@
 # str.count("ab") --> return the occurence of the ab in str
 # (str1 + str2) -->  it will concatinate the str1 and str2
 # len(str) -->  it will give the length of the string str
+# data.split(",") --> it will split the data by comma
 
 # str[startidx: endidx] --> endidx is excluded. if we not specify the first idex then it will take 0 as first and if we not specify
 # the last one then it will take the length of the string.it will not change the original string.
